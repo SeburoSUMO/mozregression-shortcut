@@ -1,16 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Name=mozregression
-Comment=mozregression --good yyyy-mm-dd --bad yyyy-mm-dd
-Exec=/usr/bin/x-terminal-emulator
+Comment=mozregression 
+Exec=/usr/bin/x-terminal-emulator -e /opt/mozregression-gui/mozregression-gui
 Terminal=false
 X-MultipleArgs=false
 Type=Application
 Icon=/opt/mozregression/mozregression_logo_128.png
 Categories=GNOME;GTK;Development;
 StartupNotify=true
-
-
-
-
-
